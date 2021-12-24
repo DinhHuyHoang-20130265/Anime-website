@@ -109,7 +109,37 @@
         autoplay: true,
         mouseDrag: false
     });
+    /*------------------
+        Login 
+    --------------------*/
+    document.getElementById("loginBtn").onclick = function () {
+        var myEmail = document.getElementById("email").value;
+        var myPass = document.getElementById("pass").value;
 
+        var listEmail = ["nhom11@gmail.com", "nhom11hci@gmail.com"];
+        var listPass = ["1234567890", "nhom11"];
+        var checkU = false;
+        var indexU = 0;
+        for (var i = 0; i < listEmail.length; i++) {
+            if (myEmail == listEmail[i]) {
+                checkU = true;
+                indexU = i;
+                break;
+            } else {
+                checkU = false;
+            }
+        }
+        if (checkU === true) {
+            if (myPass == listPass[indexU]) {
+                window.location.href = "./admin/index.html";
+                return false;
+            } else {
+                document.getElementById("insertTextHere").textContent="Sai Password";
+            }
+        } else {
+            document.getElementById("insertTextHere").textContent="Username không hợp lệ hoặc sai";
+        }
+    }
     /*------------------
         Video Player
     --------------------*/
@@ -127,7 +157,9 @@
         Scroll To Top
     --------------------*/
     $("#scrollToTopButton").click(function () {
-        $("html, body").animate({scrollTop: 0}, "slow");
+        $("html, body").animate({
+            scrollTop: 0
+        }, "slow");
         return false;
     });
 

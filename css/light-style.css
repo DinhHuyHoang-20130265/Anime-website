@@ -1923,6 +1923,14 @@ hr {
 	padding-left: 145px;
 }
 
+#insertTextHere {
+	color: rgb(0, 0, 0);
+	position: relative;
+	padding-left: 150px;
+	top: 10px;
+	transition: var(--transition-effect);
+}
+
 .login__form .site-btn:hover{
 	opacity: 0.7;
 }
@@ -2241,6 +2249,12 @@ hr {
 	.set-bg {
 		max-width: 100%;
 	}
+
+	#insertTextHere {
+		position: relative;
+		padding-left: 40px;
+		top: 10px;
+	}
 	.header__right .search-switch {
 		position: absolute;
 		right: 10px;
@@ -2269,6 +2283,13 @@ hr {
 	.hero {
 		overflow: hidden;
 	}
+
+	#insertTextHere {
+		position: relative;
+		padding-left: 0px;
+		top: -20px;
+	}
+
 	.set-bg {
 		max-width: 100%;
 	}
@@ -2383,6 +2404,11 @@ hr {
 @media only screen and (max-width: 767px) {
 	.hero {
 		overflow: hidden;
+	}
+	#insertTextHere {
+		position: relative;
+		padding-left: 0px;
+		top: -20px;
 	}
 	.set-bg {
 		max-width: 100%;
