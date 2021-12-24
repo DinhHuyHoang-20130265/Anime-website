@@ -110,7 +110,7 @@
     /*------------------
         Login 
     --------------------*/
-    document.getElementById("loginBtn").onclick = function () {
+    $('#login-button').click(function () {
         var myEmail = document.getElementById("email").value;
         var myPass = document.getElementById("pass").value;
 
@@ -137,7 +137,7 @@
         } else {
             document.getElementById("insertTextHere").textContent="Username không hợp lệ hoặc sai";
         }
-    }
+    });
     /*------------------
         Video Player
     --------------------*/
