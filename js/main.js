@@ -136,7 +136,7 @@
             } else {
                 document.getElementById("insertTextHere").textContent="Sai Password";
             }
-        } else { 
+        } else {
             document.getElementById("insertTextHere").textContent="Username không hợp lệ hoặc sai";
         }
     }
