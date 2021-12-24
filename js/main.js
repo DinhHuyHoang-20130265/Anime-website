@@ -10,7 +10,6 @@
 'use strict';
 
 (function ($) {
-
     /*------------------
         Preloader
     --------------------*/
@@ -60,7 +59,6 @@
     /*------------------
 		Dark/Light Changer
 	--------------------*/
-
     var isLight = localStorage.getItem('isLight');
     var head = document.getElementsByTagName('head')[0];
     var link = document.createElement("link");
