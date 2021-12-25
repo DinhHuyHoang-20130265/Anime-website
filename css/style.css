@@ -374,7 +374,7 @@ ol {
 }
 
 .header__logo {
-	padding: 20px 0 17px;
+	padding: 15px 0 17px;
 }
 
 .header__logo a {
@@ -2239,6 +2239,9 @@ ol {
 	.header {
 		position: relative;
 	}
+	.header__logo {
+		width:130px;
+	}
 	.header .container {
 		position: relative;
 	}
@@ -2355,6 +2358,9 @@ ol {
 	}
 	.set-bg {
 		max-width: 100%;
+	}
+	.header__logo {
+		width:120px;
 	}
 	.header {
 		position: relative;
@@ -2509,6 +2515,9 @@ ol {
 	}
 	.hero__items {
 		padding: 250px 0 42px 15px;
+	}
+	.header__logo {
+		width: 110px;
 	}
 	.hero__text h2 {
 		font-size: 32px;
