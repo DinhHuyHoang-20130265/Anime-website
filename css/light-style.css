@@ -1924,10 +1924,7 @@ hr {
 }
 
 #insertTextHere {
-	color: rgb(0, 0, 0);
-	position: relative;
-	padding-left: 150px;
-	top: 10px;
+	color: #8B0000;
 	transition: var(--transition-effect);
 }
 
@@ -2254,6 +2251,7 @@ hr {
 		position: relative;
 		padding-left: 40px;
 		top: 10px;
+
 	}
 	.header__right .search-switch {
 		position: absolute;

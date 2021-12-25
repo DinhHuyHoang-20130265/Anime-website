@@ -132,10 +132,10 @@
                 window.location.href = "./admin/index.html";
                 return false;
             } else {
-                document.getElementById("insertTextHere").textContent="Sai Password";
+                document.getElementById("insertTextHere").textContent="*Sai Password";
             }
         } else {
-            document.getElementById("insertTextHere").textContent="Username không hợp lệ hoặc sai";
+            document.getElementById("insertTextHere").textContent="*Username không hợp lệ hoặc sai";
         }
     });
     /*------------------
