@@ -33,7 +33,7 @@
         Sticky Header
     --------------------*/
         $('.product__sidebar').sticky({
-            topSpacing: 10,
+            topSpacing: 80,
             bottomSpacing: 350
         });
     /*------------------

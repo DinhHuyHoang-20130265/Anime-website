@@ -371,6 +371,10 @@ ol {
 	background-color: #404040;
 	transition: var(--transition-effect);
 	height: 63px;
+	z-index: 10;
+	padding-bottom: 50px;
+	position: fixed; /* not yet */
+	width: 100%;	/* not yet */
 }
 
 .header__logo {
@@ -495,7 +499,7 @@ ol {
 -----------------------*/
 
 .hero {
-	padding-top: 50px;
+	padding-top: 100px;
 }
 
 .hero__items {
@@ -2247,7 +2251,7 @@ ol {
 		max-width: 100%;
 	}
 	.header {
-		position: relative;
+		position: fixed;
 	}
 	.header__logo {
 		width:130px;
@@ -2376,7 +2380,7 @@ ol {
 		width:120px;
 	}
 	.header {
-		position: relative;
+		position: fixed;
 	}
 	.header .container {
 		position: relative;
