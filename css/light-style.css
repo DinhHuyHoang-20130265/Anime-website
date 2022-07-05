@@ -371,7 +371,10 @@ ol {
 .header__logo {
 	padding: 15px 0 17px;
 }
-
+.form-control {
+    color: rgb(255, 255, 255);
+	transition: var(--transition-effect);
+}
 .header__logo a {
 	display: inline-block;
 }

@@ -46,7 +46,7 @@
 .form-control {
     max-width: 400px;
     background-color: rgb(255, 251, 251);
-    color: #fff;
+    color: rgb(0, 0, 0);
     letter-spacing: 1px;
     transition: var(--transition-effect);
 }
