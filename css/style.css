@@ -795,7 +795,6 @@ ol {
 	line-height: 26px;
 	transition: var(--transition-effect);
 }
-
 .product__sidebar .section-title h5 {
 	color: #ffffff;
 	font-weight: 600;
@@ -2097,8 +2096,8 @@ ol {
 .footer {
 	/* background: #070720; */
 	background: #404040;
-	padding-top: 60px;
-	padding-bottom: 40px;
+	padding-top: 50px;
+	padding-bottom: 20px;
 	position: relative;
 	transition: var(--transition-effect);
 }
@@ -2177,11 +2176,17 @@ ol {
 	.hero {
 		overflow: hidden;
 	}
+	.footer__nav {
+		padding-top: 20px;
+	}
 }
 
 @media only screen and (min-width: 1200px) {
 	.container {
 		max-width: 1170px;
+	}
+	.footer__nav {
+		padding-top: 20px;
 	}
 }
 
@@ -2193,6 +2198,9 @@ ol {
 	}
 	.set-bg {
 		max-width: 100%;
+	}
+	.footer__nav {
+		padding-top: 20px;
 	}
 	#insertTextHere {
 		position: relative;
@@ -2227,7 +2235,9 @@ ol {
 	.hero {
 		overflow: hidden;
 	}
-	
+	.footer p {
+		text-align: center;
+	}
 	#insertTextHere {
 		position: relative;
 		padding-left: 0px;
@@ -2350,6 +2360,9 @@ ol {
 @media only screen and (max-width: 767px) {
 	.hero {
 		overflow: hidden;
+	}
+	.footer p {
+		text-align: center;
 	}
 	#insertTextHere {
 		position: relative;
@@ -2509,6 +2522,9 @@ ol {
 @media only screen and (max-width: 479px) {
 	.hero__slider.owl-carousel .owl-nav {
 		display: none;
+	}
+	.footer p {
+		text-align: center;
 	}
 	.set-bg {
 		max-width: 100%;

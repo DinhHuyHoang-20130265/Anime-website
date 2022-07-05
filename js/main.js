@@ -29,7 +29,13 @@
             var mixer = mixitup(containerEl);
         }
     });
-
+    /*------------------
+        Sticky Header
+    --------------------*/
+        $('.product__sidebar').sticky({
+            topSpacing: 10,
+            bottomSpacing: 350
+        });
     /*------------------
         Background Set
     --------------------*/
@@ -57,7 +63,7 @@
         allowParentLinks: true
     });
     /*------------------
-		Dark/Light Changer
+	  Dark/Light Changer
 	--------------------*/
     var isLight = localStorage.getItem('isLight');
     var head = document.getElementsByTagName('head')[0];
