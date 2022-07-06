@@ -326,6 +326,14 @@ ol {
 	z-index: 99999;
 }
 
+.ui-widget {
+	background: #000;
+	color:#999999;
+	z-index: 100000;
+	overflow: auto;
+    max-height: 200px;
+}
+
 .search-model-form {
 	padding: 0 15px;
 }
@@ -375,6 +383,7 @@ ol {
 	padding-bottom: 50px;
 	position: fixed; /* not yet */
 	width: 100%;	/* not yet */
+	opacity: 90%;
 }
 
 .header__logo {

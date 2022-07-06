@@ -19,6 +19,7 @@
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="js/jquery-ui-1.13.1.custom/jquery-ui.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
     <link rel="stylesheet" href="css/plyr.css" type="text/css">
@@ -786,7 +787,9 @@
         <div class="h-100 d-flex align-items-center justify-content-center">
             <div class="search-close-switch"><i class="icon_close"></i></div>
             <form class="search-model-form">
-                <input type="text" id="search-input" placeholder="Search here.....">
+                <div class="ui-widget">
+                    <input type="text" id="search-input" placeholder="Search here.....">
+                </div>
             </form>
         </div>
     </div>
@@ -797,6 +800,37 @@
     <script src="js/jquery.sticky.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/player.js"></script>
+    <script src="js/jquery-ui-1.13.1.custom/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            var availableTags = [
+            "ActionScript",
+            "AppleScript",
+            "Asp",
+            "BASIC",
+            "C",
+            "C++",
+            "Clojure",
+            "COBOL",
+            "ColdFusion",
+            "Erlang",
+            "Fortran",
+            "Groovy",
+            "Haskell",
+            "Java",
+            "JavaScript",
+            "Lisp",
+            "Perl",
+            "PHP",
+            "Python",
+            "Ruby",
+            "Scala",
+            "Scheme"];
+            $( '#search-input' ).autocomplete({
+                source: availableTags
+            });
+        });
+    </script>
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/mixitup.min.js"></script>
     <script src="js/jquery.slicknav.js"></script>
