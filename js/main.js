@@ -16,9 +16,9 @@
     $(window).on('load', function () {
         $(".loader").fadeOut();
         $("#preloder").delay(200).fadeOut("slow");
-
+        
         /*------------------
-            FIlter
+            Filter
         --------------------*/
         $('.filter__controls li').on('click', function () {
             $('.filter__controls li').removeClass('active');
@@ -45,6 +45,18 @@
     });
 
     // Search model
+    $( function() {
+        var availableTags = [
+        "ActionScript", "AppleScript", "Asp",
+        "BASIC", "C", "C++", "Clojure",
+        "COBOL", "ColdFusion", "Erlang", "Fortran",
+        "Groovy", "Haskell", "Java", "JavaScript",
+        "Lisp", "Perl", "PHP", "Python", "Ruby",
+        "Scala", "Scheme"];
+        $( '#search-input' ).autocomplete({
+            source: availableTags
+        });
+    });
     $('.search-switch').on('click', function () {
         $('.search-model').fadeIn(400);
     });
