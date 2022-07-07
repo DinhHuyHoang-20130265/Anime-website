@@ -3001,3 +3001,8 @@ ul {
         display: none !important;
     }
 }
+
+.date-class {
+    width: 29%;
+    margin-top: 10px;
+}
