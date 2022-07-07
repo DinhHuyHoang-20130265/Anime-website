@@ -317,6 +317,11 @@ ul {
     }
 }
 
+@media (max-width: 575px) {
+    .header__logo img {
+        width: 200px;
+    }
+}
 /*==============================
 	Sidebar
 ==============================*/
@@ -943,6 +948,19 @@ ul {
     .main__title-form {
         margin-top: 0;
         width: 260px;
+    }
+   
+    .sidebar__logo img {
+        width: 200px;
+    }
+    .header__logo img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 575px) {
+    .sidebar__logo img {
+        width: 200px;
     }
 }
 
