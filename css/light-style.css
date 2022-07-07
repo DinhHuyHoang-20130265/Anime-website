@@ -637,10 +637,10 @@ ol {
 	font-size: 36px;
 	height: 66px;
 	width: 66px;
-	background: #0b0c2a;
+	background: rgb(246 242 242);
 	line-height: 66px;
 	text-align: center;
-	color: #ffffff;
+	color: #4d4343;
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -650,6 +650,7 @@ ol {
 	left: -33px;
 	top: 50%;
 	margin-top: -47px;
+	transition: var(--transition-effect);
 }
 
 .hero__slider.owl-carousel .owl-nav button.owl-next {
@@ -664,10 +665,11 @@ ol {
 	right: 0;
 	height: 54px;
 	width: 54px;
-	background: rgba(255, 255, 255, 0.1);
+	background: #9f9999;
 	content: "";
 	z-index: -1;
 	margin: 0 auto;
+	transition: var(--transition-effect);
 }
 
 .hero__slider.owl-carousel .owl-nav button span {
