@@ -1,8 +1,7 @@
 $(document).ready(function() {
-    "use strict"; // start of use strict
-
+    "use strict";
     /*==============================
-    Menu
+                Menu
     ==============================*/
     $('.header__btn').on('click', function() {
         $(this).toggleClass('header__btn--active');
@@ -11,7 +10,7 @@ $(document).ready(function() {
     });
 
     /*==============================
-    Filter
+                Filter
     ==============================*/
     $('.filter__item-menu li').each(function() {
         $(this).attr('data-value', $(this).text().toLowerCase());
@@ -25,7 +24,7 @@ $(document).ready(function() {
     });
 
     /*==============================
-    Tabs
+                Tabs
     ==============================*/
     $('.profile__mobile-tabs-menu li').each(function() {
         $(this).attr('data-value', $(this).text().toLowerCase());
@@ -39,7 +38,7 @@ $(document).ready(function() {
     });
 
     /*==============================
-    Modal
+                Modal
     ==============================*/
     $('.open-modal').magnificPopup({
         fixedContentPos: true,
@@ -59,7 +58,7 @@ $(document).ready(function() {
     });
 
     /*==============================
-    Select2
+            Select2
     ==============================*/
     $('#quality').select2({
         placeholder: "Choose quality",
@@ -77,7 +76,7 @@ $(document).ready(function() {
     $('#subscription, #rights').select2();
 
     /*==============================
-    Upload cover
+        Upload cover/post cover
     ==============================*/
     function readURL(input) {
         if (input.files && input.files[0]) {
@@ -96,7 +95,7 @@ $(document).ready(function() {
     });
 
     /*==============================
-    Upload video
+            Upload video
     ==============================*/
     $('.form__video-upload').on('change', function() {
         var videoLabel = $(this).attr('data-name');
@@ -109,7 +108,7 @@ $(document).ready(function() {
     });
 
     /*==============================
-    Upload gallery
+            Upload gallery
     ==============================*/
     $('.form__gallery-upload').on('change', function() {
         var length = $(this).get(0).files.length;
@@ -123,7 +122,7 @@ $(document).ready(function() {
     });
 
     /*==============================
-    Scroll bar
+            Scroll bar
     ==============================*/
     $('.sidebar__nav-wrap').mCustomScrollbar({
         axis: "y",
@@ -150,7 +149,7 @@ $(document).ready(function() {
     });
 
     /*==============================
-    Bg
+                Bg
     ==============================*/
     $('.section--bg').each(function() {
         if ($(this).attr("data-bg")) {

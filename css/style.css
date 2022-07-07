@@ -812,6 +812,7 @@ ol {
 	line-height: 26px;
 	transition: var(--transition-effect);
 }
+
 .product__sidebar .section-title h5 {
 	color: #ffffff;
 	font-weight: 600;
