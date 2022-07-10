@@ -2087,7 +2087,7 @@ ol {
 .footer {
 	/* background: #070720; */
 	background: #404040;
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-bottom: 20px;
 	position: relative;
 	transition: var(--transition-effect);
@@ -2159,6 +2159,7 @@ ol {
 .footer .col-lg-3 p {
 	color: rgb(255, 255, 255);
 	transition: var(--transition-effect);
+	padding-top: 20px;
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
@@ -2228,6 +2229,9 @@ ol {
 	}
 	.footer p {
 		text-align: center;
+	}
+	.footer .col-lg-3 p {
+		padding-top: 0px;
 	}
 	#insertTextHere {
 		position: relative;
@@ -2354,6 +2358,9 @@ ol {
 	}
 	.footer p {
 		text-align: center;
+	}
+	.footer .col-lg-3 p {
+		padding-top: 0px;
 	}
 	#insertTextHere {
 		position: relative;
@@ -2516,6 +2523,9 @@ ol {
 	}
 	.footer p {
 		text-align: center;
+	}
+	.footer .col-lg-3 p {
+		padding-top: 0px;
 	}
 	.set-bg {
 		max-width: 100%;
